@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h1><%= info.name %></h1>
+    <div><%= info.id %></div>
+    <div><%% info.id %></div>
+
+    <% if(info.judge) { %>
+      <div>已绑定</div>
+    <% } else { %>
+      <div>未绑定</div>
+    <% } %>
+	</body>
+</html>

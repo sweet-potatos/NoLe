@@ -1,0 +1,22 @@
+{
+  "name": "NoLe",
+  "version": "1.0.0",
+  "description": {
+    "ejs": "^3.1.3"
+  },
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "koa": "^2.13.0",
+    "koa-session": "^6.0.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.0"
+  }
+}
